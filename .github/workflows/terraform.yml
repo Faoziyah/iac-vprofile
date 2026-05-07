@@ -58,3 +58,4 @@ jobs:
       - name: Terraform plan status
         if: steps.plan.outcome == 'failure'
         run: exit 1
+#This will be pushed to the stage breanch and then merged to main branch after approval.

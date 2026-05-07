@@ -9,3 +9,4 @@ variable "clustername" {
   type        = string
   default     = "vprofile-eks"
 }
+#This is variable.tf file
