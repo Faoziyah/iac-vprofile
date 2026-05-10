@@ -17,3 +17,8 @@ output "cluster_security_group_id" {
   description = "Security group attached to the cluster control plane"
   value       = module.eks.cluster_security_group_id
 }
+
+output "ecr_repository_url" {
+  description = "URL of the ECR repository"
+  value       = aws_ecr_repository.vprofileapp.repository_url
+}
