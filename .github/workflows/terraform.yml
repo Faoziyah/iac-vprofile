@@ -66,4 +66,4 @@ jobs:
         run: terraform apply -auto-approve -input=false -parallelism=1 planfile
 
 
-#This will be pushed to the stage breanch and then merged to main branch after approval.
+#This will be pushed to the stage breanch and then merged to main branch after approval of pull request.
