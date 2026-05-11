@@ -23,3 +23,5 @@ terraform {
 provider "aws" {
   region = var.region
 }
+
+# debugging is a serious task
